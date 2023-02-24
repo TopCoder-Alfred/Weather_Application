@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
     *, *::before, *::after {
@@ -9,6 +9,6 @@ const GlobalStyles = createGlobalStyle`
         text-decoration: none;
         font-size: 10px;
     }
-`
+`;
 
-export default GlobalStyles
+export default GlobalStyles;
