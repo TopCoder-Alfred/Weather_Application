@@ -1,11 +1,5 @@
-import styled from 'styled-components';
-
 const Weather = () => {
-    return (
-        <div>
-            Weather
-        </div>
-    )
-}
+	return <div>Weather</div>;
+};
 
-export default Weather
+export default Weather;
