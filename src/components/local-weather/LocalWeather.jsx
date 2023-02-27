@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import BackgroundImage from '../background-image';
+import CityName from './components/city-name/CityName';
 import Weather from './components/weather';
 
 const Layout = styled.div`
@@ -14,7 +15,7 @@ const LocalWeather = () => {
 		<BackgroundImage imgUrl='../../../assets/images/background-img1.jpg'>
 			<Layout>
 				<Weather />
-				<div>CityName</div>
+				<CityName name="Melbourne" />
 			</Layout>
 		</BackgroundImage>
 	);
