@@ -15,7 +15,7 @@ const LocalWeather = () => {
 		<BackgroundImage imgUrl='../../../assets/images/background-img1.jpg'>
 			<Layout>
 				<Weather />
-				<CityName name="Melbourne" />
+				<CityName name='Melbourne' />
 			</Layout>
 		</BackgroundImage>
 	);
