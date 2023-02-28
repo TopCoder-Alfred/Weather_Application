@@ -4,5 +4,8 @@
 # Run ESLint
 npx eslint --ext .js,.jsx .
 
+# Run ESLint fix
+npx eslint --fix --ext .js,.jsx src
+
 # Run Prettier
 npx prettier --write .
